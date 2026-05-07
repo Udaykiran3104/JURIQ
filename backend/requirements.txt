@@ -1,0 +1,42 @@
+# Core Backend API
+fastapi==0.112.0
+uvicorn==0.30.1
+python-dotenv==1.0.1
+
+# LangChain Ecosystem (The 0.2.x update is stable and recommended)
+langchain==0.2.11
+langchain-community==0.2.10
+langchain-huggingface==0.0.3
+# langchain-classic is not required for modern setups
+
+# Vector Database
+chromadb==0.5.5
+
+# Embeddings & NLP
+# 3.0.1 is highly compatible with Python 3.10
+sentence-transformers==3.0.1
+pypdf==4.3.1
+
+# Local LLM Client
+ollama==0.3.0
+
+# Translation & Language Detection
+deep-translator==1.11.4
+langdetect==1.0.9
+
+# Authentication
+google-auth
+PyJWT
+passlib[bcrypt]
+python-multipart
+
+
+email-validator
+
+google-generativeai 
+
+python-dotenv
+
+# googletrans==4.0.0-rc1
+
+edge-tts
